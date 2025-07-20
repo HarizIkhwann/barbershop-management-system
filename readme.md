@@ -76,7 +76,7 @@ This system solves that by providing:
 | Layer | Tech |
 |-------|------|
 | Backend | Java, Spring Boot, Spring Data JPA |
-| Database | MySQL |
+| Database | PostgresSQL |
 | Frontend | HTML, Bootstrap, Thymeleaf  |
 | Payment Gateway | ToyyibPay Sandbox |
 | Version Control | Git & GitHub |
@@ -99,8 +99,8 @@ This system solves that by providing:
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/HarizIkhwann/barbershop-booking.git
-   cd barbershop-booking
+   git clone https://github.com/HarizIkhwann/barbershop-management-system.git
+   cd barbershop-management-system
 
 ## ✅ Day 3 Progress
 
