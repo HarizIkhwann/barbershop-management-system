@@ -8,7 +8,7 @@ It helps local barbershops manage services, bookings, and payments online — in
 ## 📌 Project Goals
 
 - Demonstrate real-world problem solving.
-- Show proficiency with **Java**, **Spring Boot**, **MySQL**, **JPA/Hibernate**, **REST APIs**, **Bootstrap**, **Docker**, and **GitHub workflow**.
+- Show proficiency with **Java**, **Spring Boot**, **PostgreSQL**, **JPA/Hibernate**, **REST APIs**, **Bootstrap**, **Docker**, and **GitHub workflow**.
 - Deployable & maintainable code that simulates a real business scenario.
 
 ---
@@ -76,7 +76,7 @@ This system solves that by providing:
 | Layer | Tech |
 |-------|------|
 | Backend | Java, Spring Boot, Spring Data JPA |
-| Database | MySQL |
+| Database | PostgreSQL |
 | Frontend | HTML, Bootstrap, Thymeleaf  |
 | Payment Gateway | ToyyibPay Sandbox |
 | Version Control | Git & GitHub |
@@ -99,8 +99,8 @@ This system solves that by providing:
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/HarizIkhwann/barbershop-booking.git
-   cd barbershop-booking
+   git clone https://github.com/HarizIkhwann/barbershop-management-system.git
+   cd barbershop-management-system
 
 ## ✅ Day 3 Progress
 
@@ -121,7 +121,7 @@ This system solves that by providing:
 - Same for `/services` and `/appointments`.
 
 ### 📌 Tech Stack
-- Java 17
+- Java 21
 - Spring Boot 3.x
 - Spring Data JPA
 - PostgreSQL
