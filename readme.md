@@ -8,7 +8,7 @@ It helps local barbershops manage services, bookings, and payments online — in
 ## 📌 Project Goals
 
 - Demonstrate real-world problem solving.
-- Show proficiency with **Java**, **Spring Boot**, **MySQL**, **JPA/Hibernate**, **REST APIs**, **Bootstrap**, **Docker**, and **GitHub workflow**.
+- Show proficiency with **Java**, **Spring Boot**, **PostgreSQL**, **JPA/Hibernate**, **REST APIs**, **Bootstrap**, **Docker**, and **GitHub workflow**.
 - Deployable & maintainable code that simulates a real business scenario.
 
 ---
@@ -76,7 +76,7 @@ This system solves that by providing:
 | Layer | Tech |
 |-------|------|
 | Backend | Java, Spring Boot, Spring Data JPA |
-| Database | PostgresSQL |
+| Database | PostgreSQL |
 | Frontend | HTML, Bootstrap, Thymeleaf  |
 | Payment Gateway | ToyyibPay Sandbox |
 | Version Control | Git & GitHub |
