@@ -25,6 +25,8 @@ public class Appointments {
     private String status;
     private String paymentMethod;
     private String paymentStatus;
+    private String paymentUrl;
+
 
     public Appointments() {
     }
@@ -112,5 +114,13 @@ public class Appointments {
 
     public void setPaymentStatus(String paymentStatus) {
         this.paymentStatus = paymentStatus;
+    }
+
+    public String getPaymentUrl() {
+        return paymentUrl;
+    }
+
+    public void setPaymentUrl(String paymentUrl) {
+        this.paymentUrl = paymentUrl;
     }
 }

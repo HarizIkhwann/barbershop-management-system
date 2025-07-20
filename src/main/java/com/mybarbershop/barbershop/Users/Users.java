@@ -1,5 +1,6 @@
 package com.mybarbershop.barbershop.Users;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.mybarbershop.barbershop.Appointments.Appointments;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -20,6 +21,7 @@ public class Users {
     private String role;
 
     @OneToMany(mappedBy = "user")
+    @JsonIgnore
     private List<Appointments> appointments;
 
     public Users() {

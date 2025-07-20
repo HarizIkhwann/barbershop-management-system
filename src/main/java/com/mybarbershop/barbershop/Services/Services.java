@@ -1,5 +1,6 @@
 package com.mybarbershop.barbershop.Services;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.mybarbershop.barbershop.Appointments.Appointments;
 import jakarta.persistence.*;
 
@@ -15,6 +16,7 @@ public class Services {
     private Double price;
 
     @OneToMany(mappedBy = "service")
+    @JsonIgnore
     private List<Appointments> appointments;
 
     public Services() {
