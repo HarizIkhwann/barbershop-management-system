@@ -126,3 +126,22 @@ This system solves that by providing:
 - Spring Data JPA
 - PostgreSQL
 - Docker
+
+## ✅ Day 4 Progress
+Integrated ToyyibPay sandbox payment gateway.
+
+Built PaymentService to create dynamic payment bills.
+
+Created PaymentController:
+
+Endpoint to create payment link for an appointment.
+
+Callback endpoint to update payment status automatically.
+
+Tested payment flow using Postman and Ngrok tunnel.
+
+Verified payment status updates (PAID / CONFIRMED) after sandbox payment.
+
+Secured sensitive keys (apiKey, categoryCode) in .properties file and .gitignore.
+
+Pushed updates to GitHub.
